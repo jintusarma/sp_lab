@@ -1,4 +1,4 @@
-# 2. Write a Shell program to check which number is greater / less
+# !/bin/bash
 
 echo "Enter the 1st no"
 read a

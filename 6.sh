@@ -7,6 +7,29 @@ read ch
 echo "Enter the Number to check"
 read a
 
+
+function gs
+{
+    echo "Enter the Number to be compared with"
+    read b
+    if [ $a -gt $b ]
+    then
+        echo $a "is Greater than" $b
+    else
+        echo $b "is Greater than" $a
+    fi
+}
+
+function pn
+{
+    if [ $a -gt 0]
+    then
+        echo "It is Positive"
+    else
+        echo "It is Negative"
+    fi
+}
+
 function prime
 {
     check=0
@@ -34,9 +57,11 @@ function prime
 }
 
 case $ch in
-    1) echo "1"
+    1) echo "Checking for Smaller/Greater"
+        gs
     ;;
-    2) echo "2"
+    2) echo "Checking for Positive/Negative"
+        pn
     ;;
     3) echo "Checking for Prime"
         prime

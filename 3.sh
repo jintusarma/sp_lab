@@ -1,3 +1,5 @@
+# !/bin/bash
+
 echo "Enter a no"
 read a
 

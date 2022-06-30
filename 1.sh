@@ -1,4 +1,4 @@
-# 1. Write a Shell Program to add 2 numbers
+# !/bin/bash
 
 echo "Enter the 1st no"
 read a

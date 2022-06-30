@@ -1,3 +1,5 @@
+# !/bin/bash
+
 read a
 
 check=0
